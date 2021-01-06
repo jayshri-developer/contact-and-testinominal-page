@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-image: url("b.jfif");
+  margin-left: 50mm;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: -60mm;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+    </style>
+    </head>
+    <body>
+<div class="split left">
+    <div class="centered">
+    <p style="font-family:Calibri; color:rgb(67, 207, 67); font-size: 4.5mm;line-height: 5%"><b>Testimonial</b></p>
+    <p style="font-family:Calibri; color:black; font-size: 8mm;line-height: 5%"><b>What Clients Says?</b></p>
+    <p style="font-family:Calibri; color:black; font-size: 8mm;line-height: 5%"></p><b>__________</b>
+    <p style="font-family:Calibri; color:grey; font-size: 4mm; line-height: 150%">Nam libero tempore, cum soluta nobis set eligendi optio cumque nihil</br>
+    impedit quo minus id quod maxime</p>
+    </div>
+
+    <style>
+        /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 17px;
+  height: 250px; /* Should be removed. Only for demonstration */
+  margin-top: 60mm;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ </style>
+
+    <div class="row" >
+        <div class="column" style="background-color:white;column-gap: 60mm">
+            <img src="3.png" alt="Avatar" style="width:50px; border-radius: 100%; height: 13mm; padding-left: 15mm;"></br>
+          <p style="font-family:Calibri; color:grey; font-size: 4mm; line-height: 150%; text-align: center;">"We are Creezy, a design and</br>
+            branding partners worldwide been</br>
+            working in his"</br>
+            <img src="1.jpg" alt="Avatar" style="width:70px; border-radius: 100%; height: 20mm;"></br></p>
+            <p style="font-family:Calibri; color:black; font-size: 4.5mm;line-height: 5%; text-align: center;"><b>-Eunice Spaulding</b></br></p>
+            <p style="font-family:Calibri; color:rgb(67, 207, 67); font-size: 4.5mm;line-height: 5%; text-align: center">Creezy</p>
+        </div>
+        <div class="column" style="background-color:white;">
+            <img src="3.png" alt="Avatar" style="width:50px; border-radius: 100%; height: 13mm; padding-left: 15mm;"></br>
+            <p style="font-family:Calibri; color:grey; font-size: 4mm; line-height: 150%; text-align: center;">"We are Creezy, a design and</br>
+                branding partners worldwide been</br>
+                working in his"</br>
+                <img src="1.jpg" alt="Avatar" style="width:70px; border-radius: 100%; height: 20mm;"></br></p>
+                <p style="font-family:Calibri; color:black; font-size: 4.5mm;line-height: 5%; text-align: center;"><b>-Barry Harris</b></br></p>
+                <p style="font-family:Calibri; color:rgb(67, 207, 67); font-size: 4.5mm;line-height: 5%; text-align: center;">Creezy</p>
+        </div>
+        <div class="column" style="background-color:white;">
+            <img src="3.png" alt="Avatar" style="width:50px; border-radius: 100%; height: 13mm; padding-left: 15mm;"></br>
+            <p style="font-family:Calibri; color:grey; font-size: 4mm; line-height: 150%; text-align: center;">"We are Creezy, a design and</br>
+                branding partners worldwide been</br>
+                working in his"</br>
+                <img src="1.jpg" alt="Avatar" style="width:70px; border-radius: 100%; height: 20mm;"></br></p>
+                <p style="font-family:Calibri; color:black; font-size: 4.5mm;line-height: 5%; text-align: center;"><b>-Walter Chavez </b></br></p>
+                <p style="font-family:Calibri; color:rgb(67, 207, 67); font-size: 4.5mm;line-height: 5%; text-align: center;">Creezy</p>
+        </div>
+      </div>
+
+
+      <style>
+
+* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+      </style>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+
+</div>
+  </body>
+  </html>
